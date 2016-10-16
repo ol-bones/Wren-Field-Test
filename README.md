@@ -54,8 +54,8 @@ Breeding a sheep selects two random sheep and attempts to impregnate the female 
 
 >_Use common sense to define your rules about which sheep can breed with each other_
 
-I’m unfamiliar with the social stigmas of sheep society, so sheep may interbreed. In order to prevent this and to allow for cows and pigs to coexist in the field, I would change the data structure to have a base Animal class, and use the component design pattern to give male and females their respective breeding capabilities as well as species specific functionality. 
+I’m unfamiliar with the social stigmas of sheep society, so sheep may inbreed. In order to prevent this and to allow for cows and pigs to coexist in the field, I would change the data structure to have a base Animal class, and use the component design pattern to give male and females their respective breeding capabilities as well as species specific functionality. 
 
-Animals would contain an array of their children and to prevent interbreeding an algorithm  would test for a suitable distance in the tree.
+Animals would contain an array of their children and to prevent inbreeding/interbreeding an algorithm  would test for a suitable distance in the tree.
 
 I’d also use a unit testing framework to test the javascript functionality.
